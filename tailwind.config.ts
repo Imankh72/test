@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        dark: {
+          main: "#262630",
+        },
+        gray: {
+          main: "#949494",
+        },
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
