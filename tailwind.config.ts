@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        mani: ["var(--font-mani)"],
+        inter: ["var(--font-inter)"],
+      },
     },
   },
   plugins: [],
