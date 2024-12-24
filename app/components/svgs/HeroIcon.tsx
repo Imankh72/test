@@ -1,4 +1,4 @@
-const HeroIcon = () => {
+export const HeroIcon = () => {
   return (
     <div className="">
       <svg
@@ -159,4 +159,3 @@ const HeroIcon = () => {
     </div>
   );
 };
-export default HeroIcon;
