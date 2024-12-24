@@ -1,8 +1,9 @@
 import FollowUpCode from "./components/FollowUpCode";
-import Information from "./components/Information";
+import UserInformation from "./components/UserInformation";
 import PageHeader from "./components/PageHeader";
 import ProgressStatus from "./components/ProgressStatus";
 import RequestResult from "./components/RequestResult";
+import HotelInformation from "./components/HotelInformation";
 
 const Home = () => {
   return (
@@ -10,12 +11,14 @@ const Home = () => {
       <PageHeader />
       <ProgressStatus />
       <RequestResult />
-      <div className="lg:flex">
+      <div className="flex flex-col justify-center gap-6 lg:gap-3 lg:flex-row">
         <div className="lg:w-1/2">
           <FollowUpCode />
-          <Information />
+          <UserInformation />
         </div>
-        <div className=""></div>
+        <div className="mx-8 lg:w-1/2">
+          <HotelInformation />
+        </div>
       </div>
     </main>
   );
