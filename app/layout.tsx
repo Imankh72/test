@@ -63,7 +63,7 @@ const RootLayout = ({
   return (
     <html lang="en" dir="rtl">
       <body
-        className={`${inter.variable} ${mani.variable} ${vazir.variable} antialiased`}
+        className={`${inter.variable} ${mani.variable} ${vazir.variable} antialiased max-w-screen`}
       >
         {children}
       </body>
