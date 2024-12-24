@@ -1,4 +1,4 @@
-const SearchInputIcon = () => {
+export const SearchInputIcon = () => {
   return (
     <svg
       width="25"
@@ -70,5 +70,3 @@ const SearchInputIcon = () => {
     </svg>
   );
 };
-
-export default SearchInputIcon;
