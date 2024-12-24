@@ -2,7 +2,7 @@ import PageHeader from "./components/PageHeader";
 
 const Home = () => {
   return (
-    <div className="font-inter">
+    <div className="font-inter overflow-hidden">
       <PageHeader />
     </div>
   );
