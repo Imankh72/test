@@ -1,3 +1,4 @@
+import FollowUpCode from "./components/FollowUpCode";
 import PageHeader from "./components/PageHeader";
 import ProgressStatus from "./components/ProgressStatus";
 import RequestResult from "./components/RequestResult";
@@ -8,6 +9,12 @@ const Home = () => {
       <PageHeader />
       <ProgressStatus />
       <RequestResult />
+      <div className="lg:flex">
+        <div className="">
+          <FollowUpCode />
+        </div>
+        <div className=""></div>
+      </div>
     </main>
   );
 };
