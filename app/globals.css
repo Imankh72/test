@@ -4,6 +4,14 @@
 
 @layer components {
   .nav__link {
-    @apply whitespace-nowrap text-xl font-vazir;
+    @apply whitespace-nowrap text-xl font-vazir font-bold;
+  }
+
+  .nav__link--dark {
+    @apply flex justify-center items-center bg-dark-main rounded-xl p-3 size-16 cursor-pointer;
+  }
+
+  .nav__link--dark > button {
+    @apply flex justify-center items-center whitespace-nowrap gap-1;
   }
 }
