@@ -1,4 +1,5 @@
 import FollowUpCode from "./components/FollowUpCode";
+import Information from "./components/Information";
 import PageHeader from "./components/PageHeader";
 import ProgressStatus from "./components/ProgressStatus";
 import RequestResult from "./components/RequestResult";
@@ -10,8 +11,9 @@ const Home = () => {
       <ProgressStatus />
       <RequestResult />
       <div className="lg:flex">
-        <div className="">
+        <div className="lg:w-1/2">
           <FollowUpCode />
+          <Information />
         </div>
         <div className=""></div>
       </div>
