@@ -13,12 +13,12 @@ const Navbar = () => {
       </button>
       <div className="flex items-center gap-2 lg:hidden">
         <button>
-          <PhoneIcon primaryColor="##262630" secondaryColor="#949494" />
+          <PhoneIcon primaryColor="#262630" secondaryColor="#949494" />
         </button>
         <button>
           <SearchStatusIcon />
         </button>
-        <span className="inline-block bg-dark-main opacity-30 w-[0.125rem] rounded-[11px] h-5"></span>
+        <span className="inline-block bg-dark-primary opacity-30 w-[0.125rem] rounded-[11px] h-5"></span>
         <button>
           <UserProfileIcon primaryColor="#262630" secondaryColor="#949494" />
         </button>
@@ -54,8 +54,8 @@ const Navbar = () => {
         <li className="nav__link--dark">
           <button>
             <PhoneIcon
-              primaryColor="##262630"
-              secondaryColor="#fff"
+              primaryColor="#fff"
+              secondaryColor="#262630"
               width="40"
               height="40"
             />
