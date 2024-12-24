@@ -2,7 +2,7 @@ import PageHeader from "./components/PageHeader";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="font-[Inter]">
       <PageHeader />
     </div>
   );
