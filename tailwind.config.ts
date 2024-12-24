@@ -13,8 +13,9 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        mani: ["var(--font-mani)"],
         inter: ["var(--font-inter)"],
+        mani: ["var(--font-mani)"],
+        vazir: ["var(--font-vazir)"],
       },
     },
   },
