@@ -2,7 +2,8 @@ import { NoteIcon } from "./svgs/NoteIcon";
 
 const FollowUpCode = () => {
   return (
-    <div className="flex items-center justify-between rounded-md mx-8 bg-white py-5 px-4 relative lg:w-full">
+    <div className="flex items-center justify-between rounded-md mx-8 bg-white py-5 px-4 lg:relative lg:w-full">
+      <span className="hidden lg:inline-block lg:w-[6px] lg:h-14 lg:bg-dark-primary lg:rounded-md lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2"></span>
       <p className="text-dark-primary text-xs font-bold lg:text-2xl">
         کد پیگیری :
       </p>
