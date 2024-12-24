@@ -23,6 +23,10 @@ export default {
           primary: "#1E8E29",
           secondary: "#1e8e2933",
         },
+        orange: {
+          primary: "#FF4500",
+          secondary: "#e1450033",
+        },
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
