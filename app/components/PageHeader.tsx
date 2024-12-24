@@ -4,7 +4,7 @@ import { HeroIcon } from "./svgs/HeroIcon";
 
 const PageHeader = () => {
   return (
-    <header className="lg:flex lg:items-center lg:px-4">
+    <header className="lg:flex lg:items-center lg:px-4 lg:bg-white">
       <div className="flex flex-col items-center gap-3 bg-[#262630] size-full pt-3 pb-10 lg:bg-white lg:flex-row lg:justify-start">
         <SearchInput />
         <div className="flex justify-center items-center gap-2 lg:justify-start">
