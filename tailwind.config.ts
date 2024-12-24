@@ -12,12 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         dark: {
-          main: "#262630",
+          primary: "#262630",
         },
         gray: {
-          main: "#949494",
+          primary: "#949494",
           secondary: "#F5F5F5",
           tertiary: "#F8F8F8",
+        },
+        green: {
+          primary: "#1E8E29",
+          secondary: "#1e8e2933",
         },
       },
       fontFamily: {
