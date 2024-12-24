@@ -27,6 +27,9 @@ export default {
           primary: "#FF4500",
           secondary: "#e1450033",
         },
+        red: {
+          primary: "#FF1632",
+        },
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
