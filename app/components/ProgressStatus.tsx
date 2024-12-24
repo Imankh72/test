@@ -36,7 +36,7 @@ const ProgressStatus = () => {
                   {stepStatus === "not-active" ? (
                     <CrossIcon />
                   ) : (
-                    <CheckMarkIcon />
+                    <CheckMarkIcon width="30" height="30" />
                   )}
                 </div>
                 <div className="flex flex-col gap-3">
