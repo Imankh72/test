@@ -1,4 +1,4 @@
-const Information = () => {
+const UserInformation = () => {
   return (
     <div className="mx-8 py-5 px-4 bg-white rounded-md lg:px-8 lg:w-full">
       <div className="bg-white relative py-5 lg:w-full lg:px-0">
@@ -120,11 +120,35 @@ const Information = () => {
           </div>
         </div>
       </div>
+      <div className="py-6 relative lg:py-9">
+        <span className="inline-block w-[2px] h-10 bg-orange-primary rounded-md absolute -right-4 top-1/2 -translate-y-1/2 lg:-right-8 lg:w-[6px] lg:h-16"></span>
+        <button className="flex items-center justify-center font-bold text-xs text-white bg-dark-primary px-5 py-3 rounded-md lg:text-xl lg:px-8 lg:py-5">
+          نام مسافران اضافه
+        </button>
+      </div>
+      <div className="mt-2 flex flex-col gap-3 w-full lg:gap-5 lg:mt-4">
+        <div className="hidden lg:flex justify-between items-center gap-14">
+          <div className="flex items-center justify-center text-dark-primary bg-gray-secondary rounded-md px-10 py-[1.25rem] font-bold text-xl w-1/2 whitespace-nowrap">
+            نام مسافران اضافه
+          </div>
+          <div className="flex items-center justify-center text-dark-primary bg-gray-secondary rounded-md px-10 py-[1.25rem] font-bold text-xl w-1/2 whitespace-nowrap">
+            کد ملی مسافر
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 w-full lg:justify-between lg:items-center lg:gap-14 lg:flex-row">
+          <div className="flex items-center text-orange-primary bg-orange-secondary rounded-md px-5 py-3 font-bold text-xs w-full whitespace-nowrap lg:text-xl lg:py-[1.25rem] lg:justify-center">
+            محمد حسین رسولی
+          </div>
+          <div className="flex items-center text-orange-primary bg-orange-secondary rounded-md px-5 py-3 font-bold text-xs w-full whitespace-nowrap lg:text-xl lg:py-[1.25rem] lg:justify-center">
+            وارد نشده
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Information;
+export default UserInformation;
 
 const data = [
   {
