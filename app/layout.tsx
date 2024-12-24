@@ -1,11 +1,22 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+});
+
+const mani = localFont({
+  src: [
+    {
+      path: "../public/fonts/mj-mani/mj-mani.ttf",
+      style: "normal",
+    },
+  ],
+  variable: "--font-mani",
 });
 
 export const metadata: Metadata = {
@@ -19,8 +30,10 @@ const RootLayout = ({
   children: ReactNode;
 }>) => {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+    <html lang="en" dir="rtl">
+      <body className={`${inter.variable} ${mani.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 };
