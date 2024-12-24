@@ -6,7 +6,7 @@ const PageHeader = () => {
     <header>
       <div className="flex flex-col items-center gap-3 bg-[#262630] size-full pt-3 pb-10 lg:bg-white">
         <SearchInput />
-        <div className="flex justify-center items-center gap-2">
+        <div className="flex justify-center items-center gap-2 ">
           <p className="text-white text-xl tracking-widest font-bold">
             ZARVANTRIP
           </p>
