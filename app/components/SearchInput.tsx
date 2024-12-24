@@ -2,7 +2,7 @@ import SearchInputIcon from "./svgs/SearchInputIcon";
 
 const SearchInput = () => {
   return (
-    <div className="relative h-9 flex justify-center">
+    <div className="relative h-9 flex justify-center lg:hidden">
       <input
         type="text"
         className="bg-[#080F21] w-[60%] inline-block h-full rounded-[35px]"
