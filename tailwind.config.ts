@@ -16,6 +16,8 @@ export default {
         },
         gray: {
           main: "#949494",
+          secondary: "#F5F5F5",
+          tertiary: "#F8F8F8",
         },
       },
       fontFamily: {
