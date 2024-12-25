@@ -7,7 +7,7 @@ import { StarIcon } from "./svgs/StarIcon";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-2 mx-8 bg-white rounded-[10px] -mt-5 lg:gap-32 lg:mx-0">
+    <nav className="flex items-center justify-between p-2 mx-8 bg-white rounded-[10px] -mt-5 lg:gap-32 lg:mx-0 lg:pl-4">
       <button className="lg:hidden">
         <CategoryIcon />
       </button>
