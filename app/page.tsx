@@ -5,6 +5,7 @@ import ProgressStatus from "./components/ProgressStatus";
 import RequestResult from "./components/RequestResult";
 import HotelInformation from "./components/HotelInformation";
 import Payment from "./components/Payment";
+import Footer from "./components/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
       </div>
       <Payment />
+      <Footer />
     </main>
   );
 };
