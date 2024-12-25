@@ -4,6 +4,7 @@ import PageHeader from "./components/PageHeader";
 import ProgressStatus from "./components/ProgressStatus";
 import RequestResult from "./components/RequestResult";
 import HotelInformation from "./components/HotelInformation";
+import Payment from "./components/Payment";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           <HotelInformation />
         </div>
       </div>
+      <Payment />
     </main>
   );
 };
