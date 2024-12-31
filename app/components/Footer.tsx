@@ -6,7 +6,7 @@ import { LinkedinIcon } from "./svgs/LinkedinIcon";
 const Footer = () => {
   return (
     <footer>
-      <div className="py-5 px-1 bg-dark-primary text-white border-t-4 border-orange-primary lg:pt-20 lg:pl-8">
+      <div className="py-5 px-1 bg-dark-primary text-white border-t-4 border-orange-primary lg:pt-20 lg:pl-8 lg:px-12">
         <div className="grid grid-rows-[auto,auto,auto,auto] gap-y-5 pb-5 lg:grid-rows-2 lg:grid-cols-2 lg:gap-x-20">
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-4">
